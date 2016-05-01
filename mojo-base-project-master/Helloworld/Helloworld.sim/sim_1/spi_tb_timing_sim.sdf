@@ -1,0 +1,246 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "mojo_top")
+  (DATE "Fri Apr 29 15:16:23 2016")
+  (VENDOR "Xilinx")
+  (PROGRAM "Xilinx SDF Writer")
+  (VERSION "P.28xd")
+  (DIVIDER /)
+  (VOLTAGE 1.14)
+  (TEMPERATURE 85)
+  (TIMESCALE 1 ps)
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE spi_sck_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE clk_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.1)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE avr_rx_busy_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.2)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE spi_mosi_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.3)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_0_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_1_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_2_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE spi_ss_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.4)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_3_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_4_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE avr_tx_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.5)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_5_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_6_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE rst_n_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2\.IMUX)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE ProtoComp2\.IINV)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (10:33:33)(10:33:33))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE led_7_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1575:2912:2912)(1575:2912:2912))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cclk_IBUF)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (498:1328:1328)(498:1328:1328))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp0\.IMUX\.6)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_led_7_OBUF\/I)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (4498:4498:8627)(4498:4498:8627))
+        )
+      )
+  )
+)

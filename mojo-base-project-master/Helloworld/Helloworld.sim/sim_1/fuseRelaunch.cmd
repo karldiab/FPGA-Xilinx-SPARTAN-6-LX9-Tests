@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental --nodebug -L "simprims_ver" -L "secureip" -o "spi_tb.exe" --prj "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Helloworld.sim/sim_1/spi_tb.prj" -top "work.spi_tb" -top "work.glbl" 

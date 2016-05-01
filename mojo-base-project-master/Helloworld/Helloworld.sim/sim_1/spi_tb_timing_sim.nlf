@@ -1,0 +1,39 @@
+Release 14.2 - netgen P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -w -sim -ofmt verilog -sdf_path . -insert_pp_buffers true
+-fn -sdf_anno true -pcf
+C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowor
+ld.runs/impl_1/mojo_top.pcf
+C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowor
+ld.runs/impl_1/mojo_top_routed.ncd
+C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowor
+ld.sim/sim_1/spi_tb_timing_sim.v  
+
+Read and Annotate design
+'C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowo
+rld.runs/impl_1/mojo_top_routed.ncd' ...
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+C:\Xilinx\14.2\ISE_DS\ISE\.
+   "mojo_top" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+Loading constraints from
+'C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowo
+rld.runs/impl_1/mojo_top.pcf'...
+The number of routable networks is 9
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog SDF file
+'c:\users\karl\documents\cstprojects\mojo-base-project-master\helloworld\helloworld.sim\sim_1\spi_tb_timing_sim.sdf' ...
+Writing Verilog netlist file
+'C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Helloworld.sim/sim_1/spi_tb_timing_sim.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM simulation primitives and has to be used with SIMPRIM
+   simulation library for correct compilation and simulation. 
+INFO:NetListWriters - Xilinx recommends running separate simulations to check for setup by specifying the MAX field in the SDF file and for
+   hold by specifying the MIN field in the SDF file. Please refer to Simulator documentation for more details on specifying MIN and MAX
+   field in the SDF.
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches to the simulator, see your Simulator tool documentation.
+Number of warnings: 0
+Number of info messages: 3
+Total memory usage is 260704 kilobytes

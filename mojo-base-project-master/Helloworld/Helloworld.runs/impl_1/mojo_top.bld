@@ -1,0 +1,40 @@
+Release 14.2 ngdbuild P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -p xc6slx9tqg144-2 -uc mojo_top.ucf mojo_top.edf
+
+Executing edif2ngd -quiet "mojo_top.edf" "mojo_top.ngo"
+Release 14.2 - edif2ngd P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Hellowo
+rld.runs/impl_1/mojo_top.ngo" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "mojo_top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 181356 kilobytes
+
+Writing NGD file "mojo_top.ngd" ...
+Total REAL time to NGDBUILD completion:  9 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "mojo_top.bld"...

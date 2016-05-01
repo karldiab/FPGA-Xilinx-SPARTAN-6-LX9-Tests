@@ -1,0 +1,7 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle pa -incremental --nodebug -L simprims_ver -L secureip -o spi_tb.exe --prj C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Helloworld.sim/sim_1/spi_tb.prj -top work.spi_tb -top work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/Helloworld/Helloworld.sim/sim_1/spi_tb_timing_sim.v" into library work
+ERROR:Simulator:702 - Can not find design unit work.spi_tb in library work located at isim/work 

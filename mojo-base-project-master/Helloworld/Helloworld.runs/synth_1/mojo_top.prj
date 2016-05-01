@@ -1,0 +1,6 @@
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/cclk_detector.v"
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/avr_interface.v"
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/spi_slave.v"
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/serial_rx.v"
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/serial_tx.v"
+verilog work "C:/Users/Karl/Documents/CSTProjects/mojo-base-project-master/src/mojo_top.v"
